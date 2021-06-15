@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(fonts/Raleway-Italic-VariableFont_wght.ttf);
+    src: url(fonts/Raleway-VariableFont_wght.ttf);
+    font-weight: 125 950;
+    font-stretch: 75% 125%;
+}
+
+
+
+
 h1 {
-    color: red;
+    color: black;
+    font-family: Raleway;
+}
+
+p
+{
+    font-family: Raleway;
 }
