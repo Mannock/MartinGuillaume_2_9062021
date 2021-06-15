@@ -9,22 +9,32 @@
 
 #bloc_page
 {
-    width: 1443px;
+    width: 1340px;
     margin: auto;
+}
+
+#liens
+{
+    border: solid 1px rgb(190, 18, 167);
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
 }
 
 header 
 {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     font-family: Raleway;
+    border: solid 1px olive;
+
 }
 
 #logo img
 {
     width: 94px;
-    height: 40px;
+    height: 44px;
 }
 
 #inscription
@@ -32,24 +42,30 @@ header
     text-decoration: none;
     color: #0065FC;
     font-weight: 600;
+    order: 2;
 }
 
 #inscription a
 {
+
     text-decoration: none;
     color: #0065FC;
+    /* border: solid 1px olive; */
 }
 
 nav
 {
     font-family: Raleway;
     display: flex;
+    /* border: solid 1px olive; */
+
 }
 
 nav ul 
 {
     list-style-type: none;
     display: flex;
+    
 }
 
 nav li
