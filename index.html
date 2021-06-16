@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="https://kit.fontawesome.com/c6bf90d1a2.js" crossorigin="anonymous"></script>
         <title>Reservia</title>
     </head>
 
@@ -28,7 +29,14 @@
             <section>
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
-                <form action=""></form>
+                
+                <form class="recherche" action="traitement.php">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="search" />
+                    <input type="submit" value="Rechercher" />
+
+                </form>
+
                 <div id="filtres">
                 </div>
                 <p>Plus de 500 logements sont disponibles dans cette ville</p>
