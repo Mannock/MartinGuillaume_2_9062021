@@ -13,19 +13,17 @@
     margin: auto;
 }
 
-#liens
-{
-    display: flex;
-    align-content: flex-end;
-    align-items: center;
-}
-
 header 
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     font-family: Raleway;
+}
+
+#logo
+{
+    margin-right: auto;
 }
 
 #logo img
@@ -36,6 +34,8 @@ header
 
 #inscription
 {
+    display: flex;
+    justify-content: flex-end;
     text-decoration: none;
     color: #0065FC;
     font-weight: 600;
@@ -54,8 +54,7 @@ nav
 {
     font-family: Raleway;
     display: flex;
-    /* border: solid 1px olive; */
-
+    justify-content: flex-end;
 }
 
 nav ul 
