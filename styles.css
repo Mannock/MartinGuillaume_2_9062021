@@ -138,3 +138,18 @@ p
     font-family: Raleway;
 }
 
+@media all and (min-width: 768px) and (max-width: 1024px)
+
+{
+
+    #bloc_page
+    {
+        width: auto;
+    }
+
+    form 
+    {
+        justify-content: center;
+        margin: auto;
+    }
+}
