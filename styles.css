@@ -9,8 +9,10 @@
 
 #bloc_page
 {
-    width: 1340px;
-    margin: auto;
+    width: auto;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 header 
@@ -142,7 +144,7 @@ p
 
     #bloc_page
     {
-        margin: 59px;
+        margin: 40px;
         width: auto;
     }
 
