@@ -40,7 +40,6 @@ header
     color: #0065FC;
     font-weight: 600;
     order: 2;
-    margin-right: 28px;
 }
 
 #inscription a
@@ -144,6 +143,7 @@ p
 
     #bloc_page
     {
+        margin: 59px;
         width: auto;
     }
 
