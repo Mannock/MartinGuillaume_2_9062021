@@ -163,6 +163,7 @@ p
     height: 100%;
 }
 
+
 .btn_txt
 {
     margin-right:10px;
@@ -177,8 +178,14 @@ p
     color: #0065FC;
     background-color: #deebff;
     border-radius: 50%;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.fa-info-circle
+{
+    color: #0065FC;
+    
 }
 
 
@@ -233,7 +240,20 @@ p
 
     nav 
     {
-        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul 
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav li
+    {
+        display: flex;
+        justify-content: space-between;
     }
 
     form 
