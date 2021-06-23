@@ -191,6 +191,12 @@ form.recherche input[type=submit]
     margin: 0 19px;
 }
 
+form 
+{
+    justify-content: center;
+    margin: auto;
+}
+
 form.recherche input[type=submit]
 {
 display: none;
@@ -256,26 +262,15 @@ display: none;
 
 }
 
+@media all and (min-width: 768px) and (max-width: 991px) /*Tablet*/
 
-/*
-
+{
     form 
     {
         justify-content: center;
         margin: auto;
-        
     }
-
-    form.recherche input[type=submit]
-    {
-        display: none;
-    }
-
-
-
-
-
-
+}
 
 /*
 @media all and (min-width: 1390px) { /* desktop*/
@@ -293,54 +288,8 @@ display: none;
 
 
 
-/* @media all and (min-width:768px) */
-
 /*
 
-form
-{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    border: #f2f2f2 1px solid;
-    border-radius: 10px;
-    width: 420px;
-    align-items: stretch;
-}
-
-.fa-map-marker-alt
-{
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-    padding: 14px;
-    background-color: #f2f2f2;
-    width: 52px;
-    height: 100%;
-    border-radius: 10px 0 0 10px;
-}
-
-form.recherche input[type=search]
-{
-    padding: 14px;
-    font-size: 19px;
-    font-weight: 600;
-    width: 234px;
-    border: none;
-}
-
-form.recherche input[type=submit]
-{
-    padding: 14px;
-    background-color: #0065FC;
-    color: white;
-    font-size: 19px;
-    font-family: Raleway;
-    font-weight: 600;
-    width: 134px;
-    border: none;
-    border-radius: 0px 10px 010px 0px;
-}
 
 .btn
 {
@@ -396,12 +345,3 @@ form.recherche input[type=submit]
 }
 
 
-@media all and (min-width: 768px) and (max-width: 991px)
-
-{
-    form 
-    {
-        justify-content: center;
-        margin: auto;
-    }
-}
