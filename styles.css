@@ -23,7 +23,7 @@ body
 
 h1
 {
-    padding-top: 30px;
+    padding-top: 40px;
     font-weight: 750;
     font-size: 1.4em;
     margin: 0;
@@ -173,11 +173,19 @@ form.recherche input[type=submit]
     font-size: 1.4em;
 }
 
+#filters_button button:hover
+{
+    background-color: #0065fc;
+    color: white;
+    
+}
+
 .btn_txt
 {
     font-size: 1.3em;
     font-weight: 700;
     padding-right: 7px;
+    font-family: Raleway;
 }
 
 .fa-info
