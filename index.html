@@ -11,13 +11,11 @@
     <body>
         <div id="bloc_page">
             <header>
-                    <div id="logo">
-                        <img src="logo/Reservia@3x.png" alt="logo Reservia" />
-                    </div>
+                <img id="logo" src="logo/Reservia@3x.png" alt="logo Reservia" />
+                <nav class="navigation">
                     <div id="inscription">
-                            <a href="#">S'inscrire</a>
+                        <a href="#">S'inscrire</a>
                     </div>
-                <nav>
                         <ul>
                             <li><a href="#">Hébergements</a></li>
                             <li><a href="#">Activités</a></li>
@@ -25,10 +23,11 @@
                 </nav>
             </header>
 
-            <section>
-                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p>En plein centre ville ou en pleine nature</p>
-                
+            <section id="research_section">
+                <div id="section_title">
+                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <p>En plein centre ville ou en pleine nature</p>
+                </div>  
                 <form class="recherche" action="traitement.php">
                     <i class="fas fa-map-marker-alt"></i>
                     <input type="search" />
