@@ -15,14 +15,12 @@ body
     justify-content: center;
     
 }
-#bloc_page
-{
+#bloc_page {
     max-width: 1680px;
     width: 100%; 
 }
 
-h1
-{
+h1 {
     padding-top: 40px;
     font-weight: 750;
     font-size: 1.4em;
@@ -202,6 +200,29 @@ form.recherche input[type=submit]
     flex-shrink: 0;
 }
 
+    /* --------------SECTION LOCATION ---------------*/
+
+#titre_pop
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stars 
+{
+    color: #0065FC;
+    font-weight: 900;
+    font-size: 0.7em;
+
+}
+
+.fa-star 
+{
+    padding-right: 1px
+}
+
+
+
 @media all and (max-width: 767px) /*mobile*/
 
 {
@@ -231,7 +252,7 @@ form.recherche input[type=submit]
         text-align: center;
         height: 100%;
     }
-    
+
     .navigation li:hover
     {
         border-bottom: solid 3px #0065FC;
@@ -267,6 +288,11 @@ display: none;
 }
 
 }
+
+
+    /* --------------SECTION LOCATION ---------------*/
+
+
 
 @media all and (min-width: 768px) /*Tablette / desktop)*/
 
