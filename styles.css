@@ -206,14 +206,66 @@ form.recherche input[type=submit]
 {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
+    padding-bottom: 25px;
 }
+
+.fa-chart-line
+{
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+.card
+{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px #e4e4e4, 0 4px 12px #e4e4e4;
+
+}
+
+#card_popular .card
+{
+    display: flex;
+    height: 145px;
+    margin: 6px;
+}
+
+#card_popular img
+{
+object-fit: cover;
+border-radius: 20px 0 0 20px;
+padding: 5px;
+}
+
+#card_popular .hotel_infos
+{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#card_popular h3, #card_popular p
+{
+    margin: 0;
+}
+
+#card_popular p
+{
+    margin-top: -15px;
+}
+
+#card_popular .stars
+{
+    padding-top: 15px;
+}
+
 .stars 
 {
     color: #0065FC;
     font-weight: 900;
     font-size: 0.7em;
-
 }
 
 .fa-star 
@@ -291,6 +343,32 @@ display: none;
 
 
     /* --------------SECTION LOCATION ---------------*/
+
+#populaire
+{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.card
+{
+    width: 100%;
+}
+
+#card_popular
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#card_popular img
+{
+    width: 40%;
+    flex-shrink: 0;
+}
 
 
 
