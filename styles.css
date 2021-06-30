@@ -10,7 +10,7 @@
 body
 {
     font-family: Raleway, sans-serif;
-    margin: 0;
+    margin: 3px 0 0 0;
     display: flex;
     justify-content: center;
     
@@ -229,6 +229,7 @@ form.recherche input[type=submit]
     display: flex;
     height: 145px;
     margin: 6px;
+    max-width: 345px;
 }
 
 #card_popular img
@@ -349,7 +350,7 @@ display: none;
     background-color: #f2f2f2;
     display: flex;
     flex-direction: column;
-    padding: 0 30px;
+    padding: 0 30px 30px 30px;
 }
 
 .card
@@ -385,7 +386,7 @@ display: none;
 #logo
 {
     position:absolute;
-    top: 45px;
+    top: 42px;
     left: 25px;
 }
 
@@ -415,7 +416,7 @@ display: none;
 .navigation a
 {
     display: block;
-    padding: 50px 35px 0 35px;
+    padding: 47px 35px 0 35px;
 }
 
 #inscription
@@ -439,6 +440,17 @@ display: none;
 {
     margin: 5px 10px 5px 10px;
 }
+
+ /* --------------SECTION LOCATION ---------------*/
+
+#card_popular
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 
 }
 
