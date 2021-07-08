@@ -586,7 +586,7 @@ display: none;
 
 }
 
-@media all and (min-width: 768px) and (max-width: 1219px) /*Tablet*/
+@media all and (min-width: 768px) and (max-width: 1389px) /*Tablet*/
 
 {
     form 
@@ -625,7 +625,7 @@ display: none;
 }
 
 
-@media all and (min-width: 1220px) /* desktop*/
+@media all and (min-width: 1390px) /* desktop*/
 
 {
     header
@@ -761,7 +761,7 @@ display: none;
     #card_activite
     {
         display: grid;
-        grid-template-columns: repeat(4, 300px);
+        justify-items: center;
         grid-template-rows: repeat(2, 223px);
         grid-template-areas: "a b d e" "a c d f";
         grid-gap: 0 45px;
