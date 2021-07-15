@@ -18,7 +18,7 @@ body {
     width: 100%; 
 }
 
-h1 {
+h2 {
     padding-top: 40px;
     font-weight: 750;
     font-size: 1.4em;
@@ -26,7 +26,7 @@ h1 {
     color: black;
 }
 
-h2 {
+h3 {
     font-size: 1.2em;
     font-weight: 700;
     padding-right: 15px;
@@ -230,7 +230,7 @@ padding: 5px;
     justify-content: space-between;
 }
 
-#card_popular h3, #card_popular p {
+#card_popular h4, #card_popular p {
     margin: 0;
 }
 
@@ -284,15 +284,15 @@ padding: 5px;
     margin-left: 10px;
 }
 
-#cards_rent h3, #cards_rent .stars, #cards_rent p {
+#cards_rent h4, #cards_rent .stars, #cards_rent p {
     margin: 5px;
 }
 
-#section_rent h1, #section_activites h1 {
+#section_rent h2, #section_activites h2 {
     padding-bottom: 25px;
 }
 
-#section_rent h2 {
+#section_rent h3 {
     margin: 25px 0;
 }
 
@@ -315,7 +315,7 @@ padding: 5px;
     object-fit: cover;
 }
 
-#section_activites h3 {
+#section_activites h4 {
     padding: 15px;
     margin: 0;
 }
@@ -341,7 +341,7 @@ footer li {
     padding-bottom: 10px;
 }
 
-footer h2 {
+footer h3 {
     margin: 20px 0px ;
 }
 
@@ -429,7 +429,7 @@ form.recherche input[type=submit] {
     padding: 0 30px 30px 30px;
 }
 
-#section_rent h1 {
+#section_rent h2 {
     padding-bottom: 25px;
 }
 
@@ -590,11 +590,11 @@ header {
     width: 70%;
 }
 
-#section_rent h1 {
+#section_rent h2 {
     padding: 40px 0 10px 40px;
 }
 
-#section_rent h2 {
+#section_rent h3 {
     padding-left: 40px;
 }
 
@@ -700,5 +700,3 @@ align-self: end;
 
 
 }
-
-
