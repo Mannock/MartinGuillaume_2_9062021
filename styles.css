@@ -668,7 +668,8 @@ header {
     display: grid;
     justify-items: center;
     grid-template-rows: repeat(2, 223px);
-    grid-template-areas: "a b d e" "a c d f";
+    grid-template-areas: "a b d e 
+                          a c d f";
     grid-gap: 0 45px;
 }
 
